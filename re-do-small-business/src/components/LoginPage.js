@@ -20,17 +20,15 @@ class LoginPage extends Component {
     this.props.login(this.state.username, true)
     document.cookie = "loggedIn=true;max-age=60*1000"
     this.props.history.push('/')
-    // window.location.replace("/")
   }
 
 
-  //was props passed into render
   render() {
     return (
       <Container className="signin-container">
-        {/* <AppBar position="static">
+        <AppBar position="static">
           <Typography>Sign In</Typography>
-        </AppBar> */}
+        </AppBar>
         <form onSubmit={this.loginHandler} className="signin-form">
           <TextField
             label="Username"

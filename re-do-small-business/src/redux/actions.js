@@ -3,7 +3,6 @@ export const login = () => {
     return{
         type:'LOGIN',
         value: true
-        // value: { username, loggedIn}
     }
 }
 

@@ -1,6 +1,5 @@
 import React, { Component, Fragment } from 'react'
 import { Button, TextField } from '@material-ui/core'
-import {addListing} from '../redux/actions'
 
 
 
@@ -15,7 +14,6 @@ class Add extends Component {
     }
 
     textChangeHandler = (event) => {
-        // event.preventDefault()
         const newState = {...this.state}
         newState[event.target.id] = event.target.value
         this.setState(newState)

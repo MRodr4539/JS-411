@@ -5,18 +5,10 @@ import initialState from './store'
 const user = (state = [], action) => {
     switch(action.type){
         case 'LOGIN':
-            // return {
-            //     ...state,
-            //    username: action.value.username,
-            //    loggedIn: true
-            // }
+          
             return Object.assign({}, state, { loggedIn: action.value})
         case 'LOGOUT':
-            // return {
-            //     ...state,
-            //     user: null,
-            //     loggedIn: false,
-            // }
+           
             return Object.assign({}, state, { loggedIn: action.value})
         default: 
             return state

@@ -3,7 +3,7 @@ import PublicTable from '../components/Public'
 import { deleteListing } from '../redux/actions'
 
 const mapStateToProps = (state) => {
-    console.log(state)
+    // console.log(state)
     return{
         user: state.user,
         listings: state.listings

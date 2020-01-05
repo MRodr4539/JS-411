@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React from 'react'
 import {Link} from  'react-router-dom'
 import {TableContainer, Table, TableBody, TableCell, TableHead, TableRow} from '@material-ui/core'
 import DeleteOutlinedIcon from '@material-ui/icons/DeleteOutlined';
@@ -6,10 +6,10 @@ import DeleteOutlinedIcon from '@material-ui/icons/DeleteOutlined';
 const PublicTable = (props) => {
 
 
-    let loginStat = props.user.loggedIn
+    // let loginStat = props.user.loggedIn
 
-    console.log(loginStat)
-        console.log(props.user.loggedIn)
+    // console.log(loginStat)
+    //     console.log(props.user.loggedIn)
         // console.log(this.props)
         return(
             <TableContainer>

@@ -1,19 +1,9 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { AppBar, Toolbar, Typography } from '@material-ui/core'
 import { Link } from 'react-router-dom'
 
 const Navigation = (props) => {
   
- // class Navigation extends Component {   
-    //logout = () => {
-        //if{
-    //      this.props.logout()
-    //      document.cookie='loggedIn='
- //       }
-  //  }
-
-
-  // render(){ return { }}
 
     const handleLogout = (event) => {
       event.preventDefault();
